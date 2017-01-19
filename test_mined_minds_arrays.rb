@@ -7,4 +7,8 @@ class TestMMFunctions < Minitest::Test
 		assert_equal(Array, results.class)
 	end
 
+	def test_function_returns_array_length_100()
+		results = create_mined_minds_array()
+		assert_equal(100, results.length)
+	end
 end	
