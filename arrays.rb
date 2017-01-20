@@ -1,10 +1,7 @@
 def create_mined_minds_array()
-	# create an array
-	create_mined_minds_array = []
-	100.times do
-	# push items into the array
-	create_mined_minds_array << 'array item'
-	end
-	# return the array
-	create_mined_minds_array
+	create_mined_minds_array = [] # create an array
+	100.times do # do something 100 times
+		create_mined_minds_array << 'array item'		
+	end # ends the "do" statement on line 6
+	create_mined_minds_array # return the array
 end	
