@@ -6,6 +6,9 @@ def create_mined_minds_array()
 		
 		if num % 3 == 0
 			mined_minds_array << 'mined'
+		
+		elsif num % 5 == 0
+			mined_minds_array << 'minds'
 			
 		else # pushes the next number into the array
 			mined_minds_array << num

@@ -21,13 +21,16 @@ class TestMMFunctions < Minitest::Test
 		results = create_mined_minds_array()
 		# asserts that the length of array is 100
 		assert_equal(100, results.length)
-		puts results # the outcome is that it prints "array items" 100 times????
 	end
 
 	def test_3_returns_mined
 		results = create_mined_minds_array()
 		assert_equal('mined', results[2])
+	end
+	
+	def test_5_returns_minds
+		results = create_mined_minds_array()
+		assert_equal('minds', results[4])
 		puts results
 	end
-
 end	
