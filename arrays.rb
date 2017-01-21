@@ -4,7 +4,10 @@ def create_mined_minds_array()
 	num = 1 # starts a counter
 	100.times do # do something 100 times
 		
-		if num % 3 == 0
+		if num % 15 == 0
+			mined_minds_array << 'mined minds'
+
+		elsif num % 3 == 0
 			mined_minds_array << 'mined'
 		
 		elsif num % 5 == 0

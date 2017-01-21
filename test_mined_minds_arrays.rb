@@ -33,4 +33,10 @@ class TestMMFunctions < Minitest::Test
 		assert_equal('minds', results[4])
 		puts results
 	end
+
+	def test_15_returns_mined_minds
+		results = create_mined_minds_array()
+		assert_equal('mined minds', results[14])
+		puts results
+	end
 end	
