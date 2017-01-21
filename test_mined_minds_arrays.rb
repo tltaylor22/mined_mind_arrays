@@ -16,12 +16,18 @@ class TestMMFunctions < Minitest::Test
 		puts results # prints "array item" one time meaning that it created an array???
 	end
 
-	def test_function_returns_100_items()
+	def test_function_returns_100_items_length()
 		# sets the variable results as the value of create_mined_minds
 		results = create_mined_minds_array()
 		# asserts that the length of array is 100
 		assert_equal(100, results.length)
 		puts results # the outcome is that it prints "array items" 100 times????
+	end
+
+	def test_3_returns_mined
+		results = create_mined_minds_array()
+		assert_equal('mined', results[2])
+		puts results
 	end
 
 end	
