@@ -5,13 +5,19 @@ def create_array_100_elements()
 
 	t100_array.each_with_index do|value,index|
 		
-		if value % 3 == 0
+		if value % 15 == 0
+			t100_array[index] = 'mined minds'
+
+		elsif
+			value % 3 == 0
 			t100_array[index] = 'mined'
 
-		elsif value % 5 == 0
+		elsif
+			value % 5 == 0
 			t100_array[index] = 'minds'
 
-		else value
+		else
+			value
 		end		
 
 	end	
