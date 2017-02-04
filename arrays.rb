@@ -1,6 +1,6 @@
 def create_mined_minds_array()
 	mined_minds_array = [] # create an array
-	
+
 	num = 1 # starts a counter
 	100.times do # do something 100 times
 		
@@ -22,3 +22,4 @@ def create_mined_minds_array()
 	end # ends the "do" statement on line 5
 	mined_minds_array # return the array
 end
+# puts create_mined_minds_array

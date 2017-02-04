@@ -37,4 +37,9 @@ class TestMMFunctions < Minitest::Test
 		assert_equal('minds', results[-1]) # OR results.last OR results [99]
 	end
 
+	def test_57_returns_mined
+		results = create_array_100_elements() 
+		assert_equal('mined', results[57-1])
+	end
+
 end	

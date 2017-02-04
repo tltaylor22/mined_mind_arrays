@@ -8,12 +8,12 @@ class TestMMFunctions < Minitest::Test
 	end
 	
 	# test that our function returns an array
-	def test_function_returns_array()
+	def test_function_returns_array
 		results = create_mined_minds_array() # sets the variable results as the value of create_mined_minds
 		assert_equal(Array,results.class) # asserts that the class datatype for results is an array datatype.
 	end
 
-	def test_function_returns_100_items_length()
+	def test_function_returns_100_items_length
 		results = create_mined_minds_array() 	# sets the variable results as the value of create_mined_minds
 		assert_equal(100,results.length) 	# asserts that the length of array is 100
 	end
